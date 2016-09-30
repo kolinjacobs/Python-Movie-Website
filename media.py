@@ -1,6 +1,7 @@
 import webbrowser
 class Movie():
 
+    """ Movie class used to create objects that store the title, storyline, poser omage, and youtube trailer of a movie """
     #movie contructer, used to create a movie object with various variable
     def __init__ (self, movie_title, movie_storyline, poster_image,trailer_youtube):
         self.title = movie_title
