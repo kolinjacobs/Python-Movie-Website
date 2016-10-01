@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#creates 6 movie objects for later use
+# creates 6 movie objects for later use
 toy_story = media.Movie("The Shawshank Redemption",
                         "Two imprisoned men bond over a number of years, \
                         finding solace and eventual redemption through acts \
@@ -35,14 +35,13 @@ midnight_in_paris = media.Movie("Forrest Gump",
                         "https://www.youtube.com/watch?v=bLvqoHBptjg")
 hunger_games = media.Movie("Inception",
                         "A thief, who steals corporate secrets through use of dream-sharing\
-                        technology, is given the inverse task of planting an idea into the mind\
-                        of a CEO.",
+                        technology, is given the inverse task of planting an idea\
+                        into the mind of a CEO.",
                         "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
                         "https://www.youtube.com/watch?v=8hP9D6kZseM")
 
-#adds movie objects to a list 
-movies = [toy_story,avatar,school_of_rock,ratatouille,midnight_in_paris,hunger_games]
+# adds movie objects to a list
+movies = [toy_story, avatar, school_of_rock, ratatouille,midnight_in_paris, hunger_games]
 
-#passes list into the open_movies_page funtion inorder to create the webpage
+# passes list into the open_movies_page funtion inorder to create the webpage
 fresh_tomatoes.open_movies_page(movies)
-
